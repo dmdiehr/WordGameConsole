@@ -14,7 +14,7 @@ namespace WordGameConsole
     public class Message
     {
         public string word { get; set; }
-        public string also { get; set; }
+        public string[] also { get; set; }
     }
     class Program
     {
@@ -25,7 +25,13 @@ namespace WordGameConsole
             .header("X-Mashape-Key", "mpHCxg8hs7mshfJveiHzeH13kpxip1TTyWnjsnXJtVI651pQH1")
             .header("Accept", "application/json")
             .asJson<string>();
-            //JObject jsonResponse = (JObject)JsonConvert.DeserializeObject(response.Body);
+            JObject jsonResponse = (JObject)JsonConvert.DeserializeObject(response.Body);
+
+
+            Message newMessage = jsonResponse.ToObject<Message>();
+            
+            
+            
             //Console.WriteLine(jsonResponse["messages"]);
             //Console.WriteLine(response.Body);
             //Console.ReadLine();
@@ -37,7 +43,12 @@ namespace WordGameConsole
             // //5
             // var response = client.Execute(request);
             // JObject jsonResponse = (JObject)JsonConvert.DeserializeObject(response.Content);
-            Console.WriteLine("response: " + response.Body);
+            Console.WriteLine(newMessage.word);
+            foreach(var item in newMessage.also)
+            {
+                Console.WriteLine(item);
+            }
+            
             Console.ReadLine();
         }
     }
