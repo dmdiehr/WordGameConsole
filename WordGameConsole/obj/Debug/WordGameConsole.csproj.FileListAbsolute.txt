@@ -1,0 +1,13 @@
+C:\Users\epicodus_student\Desktop\WordGameConsole\WordGameConsole\bin\Debug\WordGameConsole.exe.config
+C:\Users\epicodus_student\Desktop\WordGameConsole\WordGameConsole\bin\Debug\WordGameConsole.exe
+C:\Users\epicodus_student\Desktop\WordGameConsole\WordGameConsole\bin\Debug\WordGameConsole.pdb
+C:\Users\epicodus_student\Desktop\WordGameConsole\WordGameConsole\bin\Debug\Newtonsoft.Json.dll
+C:\Users\epicodus_student\Desktop\WordGameConsole\WordGameConsole\bin\Debug\RestSharp.dll
+C:\Users\epicodus_student\Desktop\WordGameConsole\WordGameConsole\bin\Debug\Newtonsoft.Json.xml
+C:\Users\epicodus_student\Desktop\WordGameConsole\WordGameConsole\bin\Debug\RestSharp.xml
+C:\Users\epicodus_student\Desktop\WordGameConsole\WordGameConsole\obj\Debug\WordGameConsole.csprojResolveAssemblyReference.cache
+C:\Users\epicodus_student\Desktop\WordGameConsole\WordGameConsole\obj\Debug\WordGameConsole.exe
+C:\Users\epicodus_student\Desktop\WordGameConsole\WordGameConsole\obj\Debug\WordGameConsole.pdb
+C:\Users\epicodus_student\Desktop\WordGameConsole\WordGameConsole\bin\Debug\unirest-net.dll
+C:\Users\epicodus_student\Desktop\WordGameConsole\WordGameConsole\bin\Debug\unirest-net.pdb
+C:\Users\epicodus_student\Desktop\WordGameConsole\WordGameConsole\obj\Debug\WordGameConsole.csproj.WordGameConsole.exe.config
